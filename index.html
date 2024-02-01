@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      #input > [data-id] {
+        padding: 20px;
+        display: flex;
+      }
+      .head {
+        margin-bottom: 20px;
+      }
+      .head button {
+        padding: 10px;
+        font-size: 20px;
+      }
+      .focused {
+        background: antiquewhite;
+      }
+      #input img {
+        width: 200px;
+        #border: 1px solid black;
+      }
+      #input * {
+        #width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="head">
+      <button id="text">Text</button>
+      <button id="show">show</button>
+
+    </div>
+
+    <div style="min-height: 400px; border: 1px solid black" contenteditable="true" id="input">
+
+    </div>
+
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
